@@ -1,4 +1,5 @@
 import { promisic } from './utils'
+import { config } from '../config/config'
 
 class Http {
   static async request ({ url, data, method = 'GET' }) {

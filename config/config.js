@@ -1,5 +1,4 @@
-let config
-config = {
+const config = {
   apiBaseUrl: 'http://localhost:53000/'
 }
 
